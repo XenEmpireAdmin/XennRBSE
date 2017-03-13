@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecipeDefs>
+
+	<RecipeDef Name="SurgeryOldXenn" ParentName="SurgeryFlesh" Abstract="True">
+        <effectWorking>Surgery</effectWorking>
+        <soundWorking>Recipe_Surgery</soundWorking>
+        <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+        <workSkill>Medicine</workSkill>
+        <workSkillLearnFactor>18</workSkillLearnFactor>
+        <recipeUsers>
+            <li>Alien_Xenn</li>
+        </recipeUsers>
+    </RecipeDef>
+<!-- Injury: Burn -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryBurn</defName>
+        <label>cure burn</label>
+        <description>Cure burn.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing burn.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Burn</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: Crush -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryCrush</defName>
+        <label>cure crush</label>
+        <description>Cure crush.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing crush.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Crush</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: Crack -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryCrack</defName>
+        <label>cure crack</label>
+        <description>Cure crack.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing crack.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Crack</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: Cut -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryCut</defName>
+        <label>cure cut</label>
+        <description>Cure cut.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing cut.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Cut</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: SurgicalCut -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjurySurgicalCut</defName>
+        <label>cure surgical cut</label>
+        <description>Cure surgical cut.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing surgical cut.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>SurgicalCut</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: Scratch -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryScratch</defName>
+        <label>cure scratch</label>
+        <description>Cure scratch.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing scratch.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Scratch</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: Bite -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryBite</defName>
+        <label>cure bite</label>
+        <description>Cure bite.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing bite.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Bite</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: Stab -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryStab</defName>
+        <label>cure stab</label>
+        <description>Cure stab.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing stab.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Stab</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: Gunshot -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryGunshot</defName>
+        <label>cure gunshot</label>
+        <description>Cure gunshot.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing gunshot.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Gunshot</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: Shredded -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryShredded</defName>
+        <label>cure shredded</label>
+        <description>Cure shredded.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing shredded.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Shredded</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+<!-- Injury: Bruise -->
+    <RecipeDef ParentName="SurgeryOldXenn">
+        <defName>CureInjuryBruise</defName>
+        <label>cure bruise</label>
+        <description>Cure bruise.</description>
+<workerClass>ScarRemoving.Recipe_RemoveHediff_noBrain</workerClass>
+        <jobString>Curing bruise.</jobString>
+        <workAmount>2000</workAmount>
+  <surgerySuccessChanceFactor>1.55</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+        <ingredients>
+            <li>
+				    <filter>
+          <thingDefs>
+            <li>GlitterworldMedicine</li>
+          </thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+        </ingredients>
+        <fixedIngredientFilter>
+			  <thingDefs>
+				  <li>GlitterworldMedicine</li>
+        </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <removesHediff>Bruise</removesHediff>
+      <researchPrerequisite>Bionics</researchPrerequisite>
+    </RecipeDef>
+
+
+</RecipeDefs>
